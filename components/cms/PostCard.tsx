@@ -20,7 +20,7 @@ export interface PostCardProps {
 export default function PostCard({ post }: PostCardProps) {
   return (
     <article className="flex h-full snap-center flex-col overflow-clip rounded-lg bg-neutral-800 transition-transform sm:hover:scale-[102%]">
-      <Link href={`/blog/${post.year}/${post.slug}`} passHref>
+      <Link href={`/happening/${post.year}/${post.slug}`} passHref>
         <a>
           <div className="relative aspect-video bg-black">
             {post.thumbnail && (
