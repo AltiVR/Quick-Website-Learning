@@ -8,7 +8,7 @@ import { projects, posts } from "./collections";
 const config: CmsConfig = {
   backend: {
     name: "github",
-    repo: "cubxity/cubxity.dev.next",
+    repo: "altivr/altific.net",
     branch: "main",
     commit_messages: {
       create: "cms: create {{collection}} ({{slug}})",

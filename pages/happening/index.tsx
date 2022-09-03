@@ -6,32 +6,34 @@ import SEO from "../../components/util/SEO";
 import { fetchPosts } from "../../src/cms/content.server";
 import { Post } from "../../src/cms/types";
 
-interface BlogProps {
+interface HappeningProps {
   posts: Post[];
 }
 
-export default function Blog({ posts }: BlogProps) {
+export default function Happening({ posts }: HappeningProps) {
   return (
     <>
       <SEO
-        title="Blog"
-        description="Welcome to my blog! There may be some interesting technology-related posts for you!"
+        title="What&apos;s Happening?"
+        description="Welcome to my What&apos;s Happening Feed! There may be some interesting related posts for you view and enjoy!"
         keywords={[
-          "cubxity",
-          "full-stack",
-          "developer",
-          "minecraft",
-          "sysadmin",
-          "blog",
+          "altific",
+          "upcoming-developer",
+          "streamer",
+          "streaming",
+          "stream",
+          "twitch",
+          "content-creator",
+          "happening",
         ]}
       />
       <header className="container m-auto px-4 pt-36 pb-16">
         <div className="lg:w-1/2">
           <h1 className="py-8 text-5xl font-medium text-white md:text-6xl">
-            Blog
+            What&apos;s Happening?
           </h1>
           <span className="text-xl leading-relaxed text-gray-400 md:text-2xl md:leading-relaxed">
-            Welcome to my blog!
+            Please do have a look around and if you see anything that you wanna read, be my guest!
           </span>
         </div>
       </header>

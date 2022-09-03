@@ -3,6 +3,7 @@ import React from "react";
 
 import BackgroundImage from "../assets/svg/background.svg";
 import Projects from "../components/cms/Projects";
+import Link from "../components/input/Link";
 import ScrollArrow from "../components/layout/ScrollArrow";
 import Socials from "../components/layout/Socials";
 import ContactSection from "../components/layout/section/ContactSection";
@@ -11,6 +12,9 @@ import SectionHeader from "../components/layout/section/SectionHeader";
 import SEO from "../components/util/SEO";
 import { fetchProjects } from "../src/cms/content.server";
 import { Project } from "../src/cms/types";
+
+var someDynamicUrl = "https://twitch.tv/altific";
+var someText = "Twitch.TV/Altific btw...";
 
 export interface IndexProps {
   projects: Project[];
@@ -21,15 +25,12 @@ export default function Index({ projects }: IndexProps) {
     <>
       <SEO
         title="Home"
-        description="Hey, I'm Cubxity. I'm a Full-stack Developer and System Administrator with 5+ years of experience. This is my portfolio, check it out!"
+        description="Hey, I'm Altific! Come on into my Humble Abode and take a look around. This is my portfolio, check it out!"
         keywords={[
-          "cubxity",
-          "full-stack",
-          "developer",
-          "minecraft",
-          "sysadmin",
-          "portfolio",
-          "resume",
+          "altific",
+          "upcoming-developer",
+          "streamer",
+          "twitch",
         ]}
       />
       <div className="relative flex h-screen max-h-[80rem] min-h-[40rem] flex-col bg-gradient-to-bl from-gray-900 to-black">
@@ -39,11 +40,14 @@ export default function Index({ projects }: IndexProps) {
               Hey, I&apos;m
             </span>
             <h1 className="py-8 text-7xl font-medium text-white md:text-8xl">
-              Cubxity
+              Altific
             </h1>
             <span className="text-xl leading-relaxed text-gray-400 md:text-2xl md:leading-relaxed">
-              Full-stack developer with 5+ years of experience. System
-              administrator and DevOps engineer.
+              Twitch Streamer and New To Developing.
+              <span className="text-xl leading-relaxed font-bold text-gray-400 md:text-2xl md:leading-relaxed">
+              <dd><a href={someDynamicUrl}>{someText}</a></dd>
+              </span>
+              Also&apos;s MissBumble&apos;s UID... (Unified Intelligence TaskForce)
             </span>
             <Socials />
           </div>
@@ -58,14 +62,11 @@ export default function Index({ projects }: IndexProps) {
         >
           <div className="px-4">
             <SectionHeader
-              title="Featured Projects"
-              subtitle="A mix of personal and commissioned projects."
+              title="What&apos;s Happening?"
+              subtitle="Feel Free To Have A Quick Read Of Anything That Peaks Your Interest! 😀"
             />
           </div>
           <Projects projects={projects} />
-        </section>
-        <section id="process" className="scroll-my-20 py-8 md:py-12">
-          <ProcessSection />
         </section>
         <div className="h-20" />
       </main>

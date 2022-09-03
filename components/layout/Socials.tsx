@@ -9,19 +9,19 @@ export default function Socials() {
       <IconButton
         icon={GitHubIcon}
         label="github"
-        href="https://github.com/Cubxity"
+        href="https://github.com/AltiVR"
         external
       />
       <IconButton
         icon={DiscordIcon}
         label="discord"
-        href="https://discord.gg/UUPeTMVjV7"
+        href="https://discord.com/users/836317702658326528"
         external
       />
       <IconButton
         icon={TwitterIcon}
         label="twitter"
-        href="https://twitter.com/Cubxity"
+        href="https://twitter.com/Altific"
         external
       />
     </div>

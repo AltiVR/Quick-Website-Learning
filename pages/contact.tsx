@@ -9,13 +9,10 @@ export default function NotFound() {
     <>
       <SEO
         title="Contact"
-        description="Got an idea? Let's work together! Find ways to contact me on this page."
+        description="Wanna talk or get something off your chest? Find ways to contact me on this page!"
         keywords={[
-          "cubxity",
-          "full-stack",
-          "developer",
-          "minecraft",
-          "sysadmin",
+          "altific",
+          "upcoming-developer",
           "contact",
         ]}
       />
@@ -26,24 +23,24 @@ export default function NotFound() {
               Contact
             </h1>
             <span className="text-xl leading-relaxed text-gray-400 md:text-2xl md:leading-relaxed">
-              Got an idea? Let&apos;s get work done.
+              Wanna talk or get something off your chest? Let&apos;s talk!
             </span>
             <ul className="flex flex-row gap-8">
               <li>
                 <a
                   className="my-8 block font-bold text-white transition-colors hover:text-indigo-400"
-                  href="mailto:contact@cubxity.dev"
+                  href="mailto:business@altific.net"
                   rel="noreferrer"
                   target="_blank"
                 >
                   <AtIcon className="mr-3 inline h-4 w-4" />
-                  Send an email
+                  Throw me an Email
                 </a>
               </li>
               <li>
                 <a
                   className="my-8 block font-bold text-white transition-colors hover:text-indigo-400"
-                  href="https://twitter.com/cubxity"
+                  href="https://twitter.com/altific"
                   rel="noreferrer"
                   target="_blank"
                 >

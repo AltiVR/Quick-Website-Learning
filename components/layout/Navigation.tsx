@@ -37,20 +37,27 @@ export default function Navigation() {
               width={32}
               height={32}
               className="align-middle"
-              alt="Cubxity"
+              alt="Altific"
               priority
             />
           </a>
         </NextLink>
-        <Link href="/blog">Blog</Link>
-        <Link href="https://docs.cubxity.dev" target="_blank">
+        <Link href="/">Home</Link>
+        <Link href="/happening">What&apos;s Happening?</Link>
+        <Link href="https://docs.altific.net/" target="_blank">
           Docs
+        </Link>
+        <Link href="https://profile.altific.net/" target="_blank">
+          Profile
+        </Link>
+        <Link href="https://pronouns.altific.net/" target="_blank">
+          Pronouns
         </Link>
         <div className="grow" />
         <NextLink href="/contact" passHref>
           <a
             role="button"
-            className="rounded-full bg-indigo-600 px-4 py-2 text-sm font-medium text-white"
+            className="rounded-full bg-blue-600 px-4 py-2 text-sm font-medium text-white"
           >
             Contact
           </a>
