@@ -1,0 +1,19 @@
+{
+  "created": "2022-08-12T13:16:12.0Z",
+  "slug": "London Bridge IS Down.",
+  "title": "London Bridge IS Down - The Queen's Reign is Over.",
+  "description": "The United Kingdom's Queen has died on September 8th 2022, the crown will now be passed on to her son, who will become King Charles the 3rd.",
+  "tags": [
+    "United Kingdom",
+    "Queen's Death",
+    "New King"
+  ],
+  "thumbnail": "/content/media/queendeath.jpg",
+  "featured": true,
+  "links": [
+    {
+      "label": "What's Happening?",
+      "url": "/happening/2022/queens-death"
+    }
+  ]
+}
