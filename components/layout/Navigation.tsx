@@ -44,6 +44,9 @@ export default function Navigation() {
         </NextLink>
         <Link href="/">Home</Link>
         <Link href="/happening">What&apos;s Happening?</Link>
+        <Link href="https://outposts.altific.net/" target="_blank">
+          Blogspot
+        </Link>
         <Link href="https://docs.altific.net/" target="_blank">
           Docs
         </Link>
