@@ -13,8 +13,8 @@ import SEO from "../components/util/SEO";
 import { fetchProjects } from "../src/cms/content.server";
 import { Project } from "../src/cms/types";
 
-var someDynamicUrl = "https://twitch.tv/altific";
-var someText = "Twitch.TV/Altific btw...";
+var someDynamicUrl = "https://twitch.tv/altidez";
+var someText = "Twitch.TV/Altidez btw...";
 
 export interface IndexProps {
   projects: Project[];
