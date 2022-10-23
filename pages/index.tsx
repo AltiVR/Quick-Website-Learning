@@ -25,10 +25,10 @@ export default function Index({ projects }: IndexProps) {
     <>
       <SEO
         title="Home"
-        description="Hey, I'm Altific! Come on into my Humble Abode and take a look around. This is my portfolio, check it out!"
+        description="Hey, I'm Altidez! Come on into my Humble Abode and take a look around. This is my portfolio, check it out!"
         keywords={[
-          "altific",
-          "upcoming-developer",
+          "altidez",
+          "learning-developer",
           "streamer",
           "twitch",
         ]}
@@ -40,15 +40,14 @@ export default function Index({ projects }: IndexProps) {
               Hey, I&apos;m
             </span>
             <h1 className="py-8 text-7xl font-medium text-white md:text-8xl">
-              Altific
+              Altidez
             </h1>
             <span className="text-xl leading-relaxed text-gray-400 md:text-2xl md:leading-relaxed">
-              Twitch Streamer and New To Developing.
+              Twitch Streamer & New To Developing.
               <span className="text-xl leading-relaxed font-bold text-gray-400 md:text-2xl md:leading-relaxed">
               <dd><a href={someDynamicUrl}>{someText}</a></dd>
               </span>
-              Also&apos;s MissBumble&apos;s UID... (Unified Intelligence TaskForce)
-            </span>
+             </span>
             <Socials />
           </div>
           <BackgroundImage className="invisible absolute right-0 top-0 bottom-0 h-full lg:visible" />
