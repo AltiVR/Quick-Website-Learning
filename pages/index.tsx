@@ -22,7 +22,6 @@ export interface IndexProps {
 
 export default function Index({ projects }: IndexProps) {
   return (
-    <>
       <SEO
         title="Home"
         description="Hey, I'm Altidez! Come on into my Humble Abode and take a look around. This is my portfolio, check it out!"
