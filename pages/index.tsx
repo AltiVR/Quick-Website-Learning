@@ -48,6 +48,7 @@ export default function Index({ projects }: IndexProps) {
               ! Site Update Occuring Soon... !
               <span className="text-xl leading-relaxed font-bold text-gray-400 md:text-2xl md:leading-relaxed">
               <dd><a href={someDynamicUrl}>{someText}</a></dd>
+	       </span>
               </span>
              </span>
             <Socials />
