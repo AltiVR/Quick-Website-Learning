@@ -44,6 +44,8 @@ export default function Index({ projects }: IndexProps) {
             </h1>
             <span className="text-xl leading-relaxed text-gray-400 md:text-2xl md:leading-relaxed">
               Twitch Streamer & New To Developing.
+            <span className="text-xl leading-relaxed text-red-400 md:text-2xl md:leading-relaxed">
+              ! Site Update Occuring Soon... !
               <span className="text-xl leading-relaxed font-bold text-gray-400 md:text-2xl md:leading-relaxed">
               <dd><a href={someDynamicUrl}>{someText}</a></dd>
               </span>
